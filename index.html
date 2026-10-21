@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fafafa" />
+    <meta
+      name="description"
+      content="Soy Juan Prevals, desarrollador web en formación. Explora mis proyectos con Python, Flask, bases de datos y JavaScript."
+    />
+    <meta property="og:title" content="Juan Prevals — Desarrollo web" />
+    <meta
+      property="og:description"
+      content="Ideas claras. Código que conecta. Proyectos, aprendizaje y desarrollo web con enfoque en backend."
+    />
+    <meta property="og:type" content="website" />
+    <title>Juan Prevals — Desarrollo web</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="header wrap">
+      <a class="wordmark" href="#inicio" aria-label="Juan Prevals, inicio"
+        >JP<span aria-hidden="true">.</span></a
+      >
+      <span class="header-description">Juan Prevals<br />Desarrollo web</span>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        Menú <span aria-hidden="true">+</span>
+      </button>
+      <nav id="navigation" class="navigation" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a><a href="#sobre-mi">Sobre mí</a
+        ><a href="#proceso">En acción</a
+        ><a class="nav-contact" href="#contacto"
+          >Hablemos <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="contenido">
+      <section id="inicio" class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-kicker">
+          <span>PORTAFOLIO / JUAN PREVALS</span
+          ><span>CONSTRUIR · APRENDER · MEJORAR</span>
+        </div>
+        <div class="hero-layout">
+          <h1 id="hero-title">
+            Ideas claras.<br />Código que<br /><em>conecta.</em
+            ><span class="hero-period" aria-hidden="true">*</span>
+          </h1>
+          <div class="hero-aside">
+            <span class="asterisk" aria-hidden="true">✳</span>
+            <p>
+              Soy <strong>Juan Prevals</strong>, desarrollador web en formación.
+              Me interesa lo que pasa detrás de una interfaz: los datos, la
+              lógica y las conexiones que la hacen funcionar.
+            </p>
+            <a class="text-link" href="#proyectos"
+              >Explora mi trabajo <span aria-hidden="true">↘</span></a
+            >
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <span>ENFOQUE EN BACKEND & DATOS</span
+          ><span>Python / Flask / JavaScript</span
+          ><a
+            href="https://github.com/JuanPrevals"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub <span aria-hidden="true">↗</span
+            ><span class="sr-only"> (abre en otra pestaña)</span></a
+          >
+        </div>
+      </section>
+
+      <section
+        id="proyectos"
+        class="projects wrap section"
+        aria-labelledby="projects-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">DEL APRENDIZAJE A LA PRÁCTICA</p>
+            <h2 id="projects-title">
+              Trabajo seleccionado<span class="small-period">.</span>
+            </h2>
+          </div>
+          <p class="section-intro">
+            Problemas concretos.<br />Distintas formas de resolverlos.
+          </p>
+        </div>
+        <div class="project-toolbar">
+          <div
+            class="filters"
+            role="group"
+            aria-label="Filtrar proyectos por área"
+          >
+            <button type="button" data-filter="all" aria-pressed="true">
+              Todos <span>3</span></button
+            ><button type="button" data-filter="backend" aria-pressed="false">
+              Backend</button
+            ><button type="button" data-filter="frontend" aria-pressed="false">
+              Frontend
+            </button>
+          </div>
+          <p
+            id="filter-status"
+            class="project-count"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            3 proyectos
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project project-featured" data-category="backend">
+            <button
+              class="project-visual nexo-visual"
+              type="button"
+              data-project="nexotp"
+              aria-label="Conocer el proyecto NexoTP"
+            >
+              <img
+                src="assets/images/nexotp-architecture.svg"
+                width="1200"
+                height="720"
+                alt="Mapa de NexoTP: frontend React conectado a FastAPI, reglas de Flask y base de datos."
+                fetchpriority="high"
+              /><span class="visual-action" aria-hidden="true"
+                >Ver proyecto ↗</span
+              >
+            </button>
+            <div class="project-info">
+              <div>
+                <p class="project-category">PLATAFORMA / BACKEND & DATOS</p>
+                <h3>NexoTP</h3>
+              </div>
+              <p>
+                Conectar el talento técnico con su próxima oportunidad. Una
+                plataforma para egresados, empresas y seguimiento institucional.
+              </p>
+              <div class="tags">
+                <span>React</span><span>FastAPI</span><span>Flask</span
+                ><span>SQLAlchemy</span>
+              </div>
+              <div class="project-links">
+                <button class="text-link" type="button" data-project="nexotp">
+                  Explorar proyecto <span aria-hidden="true">↗</span></button
+                ><a
+                  href="https://github.com/JuanPrevals/NexoTP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repositorio <span aria-hidden="true">↗</span
+                  ><span class="sr-only"> (abre en otra pestaña)</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="project" data-category="backend">
+            <button
+              class="project-visual"
+              type="button"
+              data-project="bookhub"
+              aria-label="Conocer el proyecto BookHub"
+            >
+              <img
+                src="assets/images/bookhub-relations.svg"
+                width="900"
+                height="640"
+                loading="lazy"
+                alt="Esquema relacional de BookHub: usuarios, libros y favoritos."
+              /><span class="visual-action" aria-hidden="true"
+                >Ver proyecto ↗</span
+              >
+            </button>
+            <div class="project-info">
+              <div>
+                <p class="project-category">APLICACIÓN / BACKEND & DATOS</p>
+                <h3>BookHub</h3>
+              </div>
+              <p>
+                Un lugar para descubrir libros y guardar nuevas lecturas.
+                Cuentas, publicaciones y favoritos conectados por una base de
+                datos relacional.
+              </p>
+              <div class="tags">
+                <span>Python</span><span>Flask</span><span>MySQL</span
+                ><span>Jinja2</span>
+              </div>
+              <div class="project-links">
+                <button class="text-link" type="button" data-project="bookhub">
+                  Explorar proyecto <span aria-hidden="true">↗</span></button
+                ><a
+                  href="https://github.com/JuanPrevals/Skillnest_fullStack_Python/tree/main/python/examen/bookhub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Repositorio <span aria-hidden="true">↗</span
+                  ><span class="sr-only"> (abre en otra pestaña)</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="project" data-category="frontend">
+            <button
+              class="project-visual headsafe-visual"
+              type="button"
+              data-project="headsafe"
+              aria-label="Conocer el proyecto HeadSafe"
+            >
+              <img
+                src="assets/images/headsafe.jpg"
+                width="1280"
+                height="800"
+                loading="lazy"
+                alt="Captura del sitio HeadSafe, prototipo académico de detección de impactos."
+              /><span class="visual-action" aria-hidden="true"
+                >Ver proyecto ↗</span
+              >
+            </button>
+            <div class="project-info">
+              <div>
+                <p class="project-category">SITIO WEB / PROYECTO EN EQUIPO</p>
+                <h3>HeadSafe</h3>
+              </div>
+              <p>
+                Comunicar una idea técnica de forma clara. Un sitio bilingüe
+                para presentar un prototipo académico de detección de impactos y
+                alertas.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>GSAP</span>
+              </div>
+              <div class="project-links">
+                <button class="text-link" type="button" data-project="headsafe">
+                  Explorar proyecto <span aria-hidden="true">↗</span></button
+                ><a
+                  href="https://juanprevals.github.io/headsafe/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver sitio <span aria-hidden="true">↗</span
+                  ><span class="sr-only"> (abre en otra pestaña)</span></a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+        <noscript
+          ><p>
+            Los proyectos y sus repositorios están disponibles sin JavaScript.
+            Actívalo para utilizar los filtros y abrir sus detalles.
+          </p></noscript
+        >
+        <div class="more-work">
+          <span>El aprendizaje también está en los ejercicios.</span
+          ><a class="text-link" href="#laboratorio"
+            >Ver laboratorio <span aria-hidden="true">↓</span></a
+          >
+        </div>
+      </section>
+
+      <section
+        id="sobre-mi"
+        class="about section"
+        aria-labelledby="about-title"
+      >
+        <div class="wrap about-grid">
+          <div>
+            <p class="eyebrow">DETRÁS DEL CÓDIGO</p>
+            <h2 id="about-title">
+              Curiosidad.<br />Práctica.<br /><em>Evolución.</em>
+            </h2>
+          </div>
+          <div class="about-copy">
+            <p class="large-copy">
+              Me gusta entender cómo funcionan las cosas. Y después, construir
+              algo con eso.
+            </p>
+            <p>
+              Estoy desarrollando mi camino en programación web a través de
+              proyectos y de mi formación en Skillnest. Trabajo con Python,
+              Flask y bases de datos, sin perder de vista la experiencia de
+              quien usa una aplicación.
+            </p>
+            <p>
+              Mi interés está en transformar reglas de negocio en flujos
+              comprensibles: conectar personas, organizar información y hacer
+              que una interfaz tenga sentido desde adentro.
+            </p>
+            <a
+              class="text-link"
+              href="https://www.linkedin.com/in/juan-prevals-1b77833b9/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conoce mi perfil en LinkedIn <span aria-hidden="true">↗</span
+              ><span class="sr-only"> (abre en otra pestaña)</span></a
+            >
+            <div class="skills">
+              <div>
+                <h3>Interfaces</h3>
+                <p>HTML · CSS · JavaScript · Bootstrap</p>
+              </div>
+              <div>
+                <h3>Backend y datos</h3>
+                <p>Python · Flask · SQL · MySQL</p>
+              </div>
+              <div>
+                <h3>Mi forma de trabajar</h3>
+                <p>Git · GitHub · Práctica e iteración</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="laboratorio"
+        class="lab wrap section"
+        aria-labelledby="lab-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">EL PROCESO TAMBIÉN CUENTA</p>
+            <h2 id="lab-title">Laboratorio.</h2>
+          </div>
+          <p class="section-intro">
+            Ejercicios y primeras interfaces.<br />Una parte de mi recorrido.
+          </p>
+        </div>
+        <div class="lab-list">
+          <a
+            class="lab-row"
+            href="https://github.com/JuanPrevals/Chile_Cars"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="lab-name">Chile Cars</span
+            ><span class="lab-description"
+              >Interfaz web · trabajo en equipo</span
+            ><span class="lab-tech">HTML / CSS / JS</span
+            ><span class="lab-arrow" aria-hidden="true">↗</span
+            ><span class="sr-only">Repositorio, abre en otra pestaña</span></a
+          ><a
+            class="lab-row"
+            href="https://github.com/JuanPrevals/Evaluacion_Motor_Logico"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="lab-name">Motor lógico</span
+            ><span class="lab-description">Lógica, arreglos y eventos</span
+            ><span class="lab-tech">JAVASCRIPT</span
+            ><span class="lab-arrow" aria-hidden="true">↗</span
+            ><span class="sr-only">Repositorio, abre en otra pestaña</span></a
+          ><a
+            class="lab-row"
+            href="https://github.com/JuanPrevals/Skillnest_fullStack_Python"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="lab-name">Bitácora Python</span
+            ><span class="lab-description"
+              >Prácticas de mi formación FullStack</span
+            ><span class="lab-tech">PYTHON / FLASK / MYSQL</span
+            ><span class="lab-arrow" aria-hidden="true">↗</span
+            ><span class="sr-only">Repositorio, abre en otra pestaña</span></a
+          >
+        </div>
+      </section>
+
+      <section
+        id="proceso"
+        class="demo wrap section"
+        aria-labelledby="demo-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">DEL REPOSITORIO A LA PANTALLA</p>
+            <h2 id="demo-title">Un proyecto en acción.</h2>
+          </div>
+          <p class="section-intro">
+            Un recorrido por HeadSafe.<br />De la idea a la experiencia web.
+          </p>
+        </div>
+        <div class="video-shell">
+          <video
+            controls
+            playsinline
+            preload="none"
+            poster="assets/images/headsafe.jpg"
+            aria-label="Recorrido visual por el sitio HeadSafe, sin narración"
+            aria-describedby="video-description"
+          >
+            <source src="assets/video/headsafe-demo.webm" type="video/webm" />
+            <track
+              kind="captions"
+              src="assets/video/headsafe-es.vtt"
+              srclang="es"
+              label="Español"
+              default
+            />
+            Tu navegador no reproduce este formato.
+            <a href="assets/video/headsafe-demo.webm"
+              >Descarga el video de HeadSafe</a
+            >.
+          </video>
+        </div>
+        <div class="video-caption">
+          <p id="video-description">
+            Grabación del sitio HeadSafe · Proyecto académico en equipo · Sin
+            audio
+          </p>
+          <a
+            href="https://juanprevals.github.io/headsafe/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Explorar el sitio <span aria-hidden="true">↗</span
+            ><span class="sr-only"> (abre en otra pestaña)</span></a
+          >
+        </div>
+        <details class="transcript">
+          <summary>Leer la descripción del video</summary>
+          <p>
+            El recorrido muestra la portada del sitio HeadSafe y después sus
+            secciones, desplazándose por la página. Es una demostración visual
+            de cómo se presenta el prototipo académico y su información. La
+            grabación termina regresando a la portada. Puedes recorrer el
+            contenido a tu ritmo desde el enlace al sitio.
+          </p>
+        </details>
+      </section>
+
+      <section
+        id="contacto"
+        class="contact section"
+        aria-labelledby="contact-title"
+      >
+        <div class="wrap">
+          <p class="eyebrow">UNA CONVERSACIÓN PUEDE SER EL COMIENZO</p>
+          <div class="contact-heading">
+            <h2 id="contact-title">
+              Hablemos<span aria-hidden="true">↗</span>
+            </h2>
+            <p>
+              Sobre una idea, una oportunidad<br />o algo que podamos construir.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="email-link" href="mailto:juanprevals@gmail.com"
+              >juanprevals@gmail.com</a
+            ><button
+              id="copy-email"
+              class="copy-button"
+              type="button"
+              aria-label="Copiar correo juanprevals@gmail.com"
+            >
+              Copiar correo <span aria-hidden="true">⧉</span></button
+            ><span id="copy-status" class="copy-status" role="status"></span>
+          </div>
+          <div class="contact-socials">
+            <a
+              href="https://github.com/JuanPrevals"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub ↗<span class="sr-only"> (abre en otra pestaña)</span></a
+            ><a
+              href="https://www.linkedin.com/in/juan-prevals-1b77833b9/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn ↗<span class="sr-only"> (abre en otra pestaña)</span></a
+            ><a href="#inicio">Volver arriba ↑</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <a
+        class="wordmark"
+        href="#inicio"
+        aria-label="Juan Prevals, volver al inicio"
+        >JP.</a
+      >
+      <p>Juan Prevals · <span id="year">2026</span></p>
+      <p>
+        Hecho con HTML, CSS y JavaScript.<br />Siempre en construcción, como mi
+        aprendizaje.
+      </p>
+    </footer>
+    <dialog
+      id="project-dialog"
+      class="project-dialog"
+      aria-labelledby="dialog-title"
+    >
+      <div class="dialog-top">
+        <span class="eyebrow">DETALLES DEL PROYECTO</span
+        ><button
+          class="dialog-close"
+          type="button"
+          aria-label="Cerrar detalles del proyecto"
+        >
+          Cerrar <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div id="dialog-content"></div>
+    </dialog>
+  </body>
+</html>

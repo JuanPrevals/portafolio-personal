@@ -1,0 +1,9 @@
+{
+  "name": "juan-prevals-portafolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portafolio editorial de Juan Prevals con HTML, CSS y JavaScript.",
+  "scripts": {
+    "start": "node scripts/serve.mjs"
+  }
+}
