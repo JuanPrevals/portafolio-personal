@@ -14,6 +14,7 @@ const mime = {
   ".webp": "image/webp",
   ".webm": "video/webm",
   ".vtt": "text/vtt; charset=utf-8",
+  ".woff2": "font/woff2",
 };
 createServer(async (request, response) => {
   try {

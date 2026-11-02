@@ -1,3 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
-<rect width="1200" height="720" fill="#e8e8e8"/><g fill="#171717" font-family="Arial,Helvetica,sans-serif"><text x="65" y="75" font-size="16" letter-spacing="3">EL TALENTO ENCUENTRA SU LUGAR.</text><text x="57" y="225" font-size="146" font-weight="700" letter-spacing="-9">NexoTP<tspan font-size="55" dx="10" dy="-62">↗</tspan></text><text x="65" y="276" font-size="19" fill="#555">Una plataforma. Distintas oportunidades.</text></g><path d="M65 320H1135" stroke="#aaa"/>
-<g font-family="Arial,Helvetica,sans-serif"><g fill="#fafafa" stroke="#c2c2c2"><rect x="65" y="373" width="246" height="190" rx="2"/><rect x="377" y="373" width="246" height="190" rx="2"/><rect x="689" y="373" width="246" height="190" rx="2"/></g><g stroke="#666" fill="none" stroke-width="2"><path d="M311 468H377m-12-7 12 7-12 7M623 468H689m-12-7 12 7-12 7M935 468h100v115H188v-20"/></g><g fill="#171717"><text x="89" y="411" font-size="12" letter-spacing="2">INTERFAZ</text><text x="89" y="468" font-size="34">React</text><text x="89" y="530" font-size="14" fill="#666">Egresados · Empresas</text><text x="401" y="411" font-size="12" letter-spacing="2">ENTRADA DEL BACKEND</text><text x="401" y="468" font-size="34">FastAPI</text><text x="401" y="530" font-size="14" fill="#666">Adaptador WSGI → Flask</text><text x="713" y="411" font-size="12" letter-spacing="2">REGLAS &amp; DATOS</text><text x="713" y="468" font-size="34">Flask + SQL</text><text x="713" y="530" font-size="14" fill="#666">SQLAlchemy</text></g><text x="65" y="665" font-size="12" letter-spacing="2" fill="#555">MAPA DE ARQUITECTURA · MIGRACIÓN INCREMENTAL</text><text x="1070" y="665" font-size="14" fill="#555">WEB ↗</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="nexotp-title nexotp-desc">
+  <title id="nexotp-title">NexoTP: mapa de arquitectura web</title>
+  <desc id="nexotp-desc">Plataforma para egresados y empresas. La interfaz React conecta con FastAPI, entrada del backend que integra Flask mediante un adaptador WSGI. Flask contiene las reglas de negocio y utiliza SQLAlchemy para acceder a la base de datos SQL. Arquitectura en migración incremental.</desc>
+  <rect width="1200" height="720" fill="#101210"/>
+
+  <g fill="#f5f5ef" font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="68" font-size="16" letter-spacing="2">EL TALENTO ENCUENTRA SU LUGAR.</text>
+    <text x="58" y="193" font-size="112" font-weight="700" letter-spacing="-6">NexoTP</text>
+    <text x="64" y="240" font-size="23">Una plataforma. Distintas oportunidades.</text>
+    <g font-family="Consolas, 'Liberation Mono', monospace" font-size="14" text-anchor="end">
+      <text x="1136" y="68" fill="#c6f36a">ARQUITECTURA WEB</text>
+      <text x="1136" y="240">REACT / PYTHON / SQL</text>
+    </g>
+  </g>
+  <path d="M64 276H1136" stroke="#f5f5ef" stroke-opacity="0.3"/>
+
+  <g fill="none" stroke="#f5f5ef" stroke-opacity="0.35">
+    <rect x="64" y="332" width="232" height="224"/>
+    <rect x="344" y="332" width="232" height="224"/>
+    <rect x="624" y="332" width="232" height="224"/>
+    <rect x="904" y="332" width="232" height="224"/>
+  </g>
+  <g fill="none" stroke="#c6f36a" stroke-width="2">
+    <path d="M64 332H104 M344 332H384 M624 332H664 M904 332H944"/>
+    <path d="M296 444H340 M331 437L340 444L331 451"/>
+    <path d="M576 444H620 M611 437L620 444L611 451"/>
+    <path d="M856 444H900 M891 437L900 444L891 451"/>
+  </g>
+
+  <g fill="#f5f5ef" font-family="Arial, Helvetica, sans-serif">
+    <g font-family="Consolas, 'Liberation Mono', monospace" font-size="14">
+      <g fill="#c6f36a">
+        <text x="86" y="367">01</text>
+        <text x="366" y="367">02</text>
+        <text x="646" y="367">03</text>
+        <text x="926" y="367">04</text>
+      </g>
+      <text x="86" y="394">INTERFAZ</text>
+      <text x="366" y="394">ENTRADA DEL BACKEND</text>
+      <text x="646" y="394">REGLAS DE NEGOCIO</text>
+      <text x="926" y="394">ORM / DATOS</text>
+    </g>
+    <g font-size="38" font-weight="700" letter-spacing="-1">
+      <text x="86" y="447">React</text>
+      <text x="366" y="447">FastAPI</text>
+      <text x="646" y="447">Flask</text>
+      <text x="926" y="447" font-size="29">SQLAlchemy</text>
+    </g>
+    <g font-size="18">
+      <text x="86" y="493">Egresados</text>
+      <text x="86" y="521">Empresas</text>
+      <text x="366" y="493">Adaptador WSGI</text>
+      <text x="366" y="521">Integración con Flask</text>
+      <text x="646" y="493">Lógica de aplicación</text>
+      <text x="646" y="521">Acceso vía ORM</text>
+    </g>
+  </g>
+
+  <g stroke="#f5f5ef" fill="none" stroke-opacity="0.65">
+    <path d="M930 484V524C930 538 1110 538 1110 524V484"/>
+    <ellipse cx="1020" cy="484" rx="90" ry="10"/>
+  </g>
+  <text x="1020" y="519" fill="#f5f5ef" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" text-anchor="middle">Base de datos SQL</text>
+
+  <path d="M64 613H1136" stroke="#f5f5ef" stroke-opacity="0.3"/>
+  <g fill="#f5f5ef" font-family="Consolas, 'Liberation Mono', monospace" font-size="14">
+    <text x="64" y="651" fill="#c6f36a">MIGRACIÓN INCREMENTAL</text>
+    <text x="1136" y="651" text-anchor="end">INTERFAZ → BACKEND → PERSISTENCIA</text>
+  </g>
+  <text x="64" y="682" fill="#f5f5ef" font-family="Arial, Helvetica, sans-serif" font-size="17">FastAPI como entrada; Flask conserva las reglas y el acceso a datos.</text>
+</svg>

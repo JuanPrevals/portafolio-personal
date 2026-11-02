@@ -1,1 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640"><rect width="900" height="640" fill="#dededb"/><g transform="rotate(-7 450 320)"><rect x="195" y="70" width="510" height="520" fill="#fafafa" stroke="#bbb"/><g font-family="Georgia,serif" fill="#171717"><text x="239" y="165" font-size="62" letter-spacing="-3">BookHub.</text><text x="242" y="204" font-size="17" font-style="italic">Tu próxima lectura empieza aquí.</text></g><path d="M242 237H659" stroke="#aaa"/><g font-family="Arial,sans-serif" fill="#171717"><text x="242" y="277" font-size="10" letter-spacing="2">UN MODELO PARA COMPARTIR HISTORIAS</text><rect x="244" y="309" width="180" height="69" fill="#171717"/><rect x="478" y="309" width="180" height="69" fill="#171717"/><text x="267" y="352" font-size="23" fill="#fafafa">Usuario</text><text x="501" y="352" font-size="23" fill="#fafafa">Libro</text><g fill="none" stroke="#777"><path d="M334 378v40h232v-40M450 418v31"/><rect x="355" y="449" width="192" height="59"/></g><text x="379" y="487" font-size="21">Favorito</text><text x="242" y="550" font-size="11" letter-spacing="1">FLASK / MYSQL / RELACIONES N:N</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-labelledby="bookhub-title bookhub-desc">
+  <title id="bookhub-title">BookHub: usuarios, libros y favoritos</title>
+  <desc id="bookhub-desc">Modelo relacional de BookHub con Flask y MySQL. Usuario y Libro tienen una relación muchos a muchos a través de Favorito: un usuario puede tener muchos favoritos y un libro puede aparecer en los favoritos de muchos usuarios.</desc>
+  <rect width="900" height="640" fill="#f5f5ef"/>
+
+  <g fill="#101210" font-family="Arial, Helvetica, sans-serif">
+    <g font-family="Consolas, 'Liberation Mono', monospace" font-size="14">
+      <text x="52" y="49" letter-spacing="1">MODELO RELACIONAL</text>
+      <text x="848" y="49" text-anchor="end">FLASK / MYSQL</text>
+    </g>
+    <text x="47" y="146" font-size="83" font-weight="700" letter-spacing="-4">BookHub.</text>
+    <text x="52" y="187" font-size="22">Tu próxima lectura empieza aquí.</text>
+  </g>
+  <path d="M52 220H848" stroke="#101210" stroke-opacity="0.3"/>
+  <path d="M52 220H140" stroke="#101210" stroke-width="3"/>
+
+  <g fill="#101210">
+    <rect x="52" y="272" width="268" height="128"/>
+    <rect x="580" y="272" width="268" height="128"/>
+  </g>
+  <g fill="#f5f5ef" font-family="Arial, Helvetica, sans-serif">
+    <g font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#c6f36a">
+      <text x="76" y="305">01 / ENTIDAD</text>
+      <text x="604" y="305">02 / ENTIDAD</text>
+    </g>
+    <g font-size="40" font-weight="700" letter-spacing="-1">
+      <text x="76" y="366">Usuario</text>
+      <text x="604" y="366">Libro</text>
+    </g>
+  </g>
+
+  <g fill="#101210" text-anchor="middle">
+    <text x="450" y="331" font-family="Consolas, 'Liberation Mono', monospace" font-size="32">N:N</text>
+    <text x="450" y="361" font-family="Arial, Helvetica, sans-serif" font-size="17">vía Favorito</text>
+  </g>
+
+  <g fill="none" stroke="#101210" stroke-width="2">
+    <path d="M186 400V516H316"/>
+    <path d="M714 400V516H584"/>
+  </g>
+  <g fill="#101210" font-family="Consolas, 'Liberation Mono', monospace" font-size="18">
+    <text x="202" y="429">1</text>
+    <text x="687" y="429">1</text>
+    <text x="290" y="503">N</text>
+    <text x="599" y="503">N</text>
+  </g>
+
+  <rect x="316" y="462" width="268" height="112" fill="#c6f36a"/>
+  <g fill="#101210">
+    <text x="340" y="493" font-family="Consolas, 'Liberation Mono', monospace" font-size="14">03 / ASOCIACIÓN</text>
+    <text x="340" y="546" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" letter-spacing="-1">Favorito</text>
+  </g>
+
+  <path d="M52 597H848" stroke="#101210" stroke-opacity="0.3"/>
+  <g fill="#101210" font-family="Consolas, 'Liberation Mono', monospace" font-size="14">
+    <text x="52" y="624">USUARIO 1:N FAVORITO</text>
+    <text x="848" y="624" text-anchor="end">LIBRO 1:N FAVORITO</text>
+  </g>
+</svg>

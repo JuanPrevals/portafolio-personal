@@ -1,6 +1,6 @@
 # Portafolio de Juan Prevals
 
-Documento de contenido basado en los repositorios consultados el 21 de octubre de 2026. La página ya está implementada en HTML, CSS y JavaScript con la dirección editorial en blanco y negro elegida por Juan.
+Documento de contenido basado en los repositorios consultados el 21 de octubre y revisados el 29 de octubre de 2026. La página está implementada en HTML, CSS y JavaScript e incorpora conocimientos por área y proceso de trabajo. La dirección visual sigue el GIF proporcionado por Juan: portada negra, tipografía ancha, órbita interactiva, texto repetido en contorno y sólido, ampliación y transición circular controladas por scroll. Se conservan el revelado de imágenes, las secuencias de contenido y las transiciones al filtrar proyectos.
 
 ## Enfoque profesional
 
@@ -54,7 +54,8 @@ Agrupar por uso, sin porcentajes de dominio inventados:
 - Web: HTML, CSS, JavaScript y Bootstrap.
 - Backend y datos: Python, Flask, SQL y MySQL.
 - Herramientas: Git y GitHub.
-- Otras tecnologías documentadas en NexoTP: React, FastAPI, SQLAlchemy y Docker. Confirmar cuáles puede explicar y demostrar personalmente antes de presentarlas como habilidades propias.
+- El README público del perfil, consultado nuevamente el 29 de octubre, también incluye SQLAlchemy, REST, Server-Sent Events, SQLite, PostgreSQL, Leaflet, GitHub Pages, Render y Linux. Se presentan por área sin asignar niveles ni porcentajes.
+- React, FastAPI, Docker y Nginx se distinguen como tecnologías para profundizar, presentes en la arquitectura de NexoTP.
 
 ## Estructura propuesta
 
